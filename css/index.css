@@ -1,0 +1,108 @@
+body {
+  font-size: 12pt;
+  font-family: Arial;
+  font-weight: 500;
+}
+
+.hmrc-logo {
+  height: 75px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.help-inline {
+  font-size: 0.8em;
+  margin-left 25px;
+}
+
+.container {
+  margin: 10px;
+  padding: 10px;
+}
+
+.bar {
+  width: 95%;
+  color: royalblue;
+  border: 3px solid royalblue;
+  border-color: inherit;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 32pt;
+  font-weight 600;
+}
+
+h4 {
+  font-size: 16pt;
+  font-weight 600;
+}
+
+.spacer-150 {
+  height: 150px;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.page-help {
+  font-size: 0.8em;
+  color: grey;
+}
+
+.btn-next {
+  background-color: green;
+  color: white;
+  height: 2.1em;
+}
+
+input {
+  background-color: #fafafa;
+  height: 18pt;
+}
+
+.tcrn_image {
+  width: 230px;
+}
+
+.footer {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 250px;
+  background-color: #dddddd;
+  color: #555555;
+  border-top: 1px solid #888888;
+}
+
+.footer-links a {
+  margin-left: 15px;
+  font-size: 0.8em;
+  background-color: inherit;
+  color: inherit;
+}
+
+.crown-copyright {
+  margin: 75px 15px 0px 0px;
+  display: inline-block;
+  background-color: inherit;
+  float: right;
+  font-size: 0.9em;
+}
+
+.ogl {
+  font-size: 0.9em;
+  margin: 15px 0px 0px 15px;
+}
+
+.ogl a {
+  margin: 15px 0px 0px 0px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Renew your Tax Credits</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+
+    <div> <!-- top bar -->
+      <span>
+        <hr class="bar" />
+        <img src="img/hmrc-logo.jpg" class="hmrc-logo"/><br/>
+      </span>
+    <div> <!-- End of top bar -->
+
+    <div class="container"> <!-- contains the form and component elements -->
+      <form method="post" action="_self">
+        <input type="hidden" name="csrf-token" value="" /> <!-- CSRF protection -->
+
+      <h1>Renew your tax credits</h1>
+
+      <h3>Your details</h3>
+      <div>
+        <p>
+          <span>Your National Insurance number</span>
+          <span><a href="#" class"help-inline">Show me where to find this</a></span>
+        </p>
+        <p>
+          <input type="text" name="ni_number" id="ni_number" value=""
+            required pattern="^[a-zA-Z]{2}[0-9]{6}[A-Za-z]{1}$" />
+        </p>
+      </div> <!-- NI Number -->
+
+      <br/>
+
+      <div>
+        <p>
+          <span>Your tax credits renewal number is the 15 digit number on the
+            bottom right<br/> hand corner of your annual declaration.
+            Enter it below<br/>
+          </span>
+
+          <div>
+            <img src="img/tcrn.png" class="tcrn_image"/>
+          </div> <!-- tcr image -->
+
+          <span>Your tax credits renewal number</span>
+          <br/>
+          <p>
+            <input type="text" name="tcr_number" id="tcr_number" value=""
+              required pattern="^[0-9]{15}$" />
+          </p>
+        </p>
+      </div> <!-- tax credits renewal number -->
+
+      <input id="btn-submit" type="submit" name="btn-next" class="btn-next" value="Next" />
+
+      <div>
+        <p>
+          <a href="#" class="page-help">Get help with this page.</a>
+        </p>
+      </div> <!-- get help with this page -->
+
+    </form> <!-- form - end of data collection -->
+
+    </div> <!-- container -->
+
+    <div class="footer">
+      <div class="footer-links">
+
+        <span class="crown-copyright">
+          <img src="img/crown-copyright.png" /><br/>
+          &copy; Crown Copyright
+        </span> <!-- the crown copyright logo -->
+
+        <div class="spacer-150"></div>
+        <a href="#">Help</a>
+        <a href="#">Cookies</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms &amp; conditions</a>
+        <div class="ogl">
+            All content is available under the
+            <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/">
+            Open Government Licence</a>, except where otherwise stated.<br/>
+        <div>
+      </div> <!-- footer links -->
+
+    </div> <!-- footer -->
+
+  </body>
+
+  <script src="js/index.js"></script>
+</html>
